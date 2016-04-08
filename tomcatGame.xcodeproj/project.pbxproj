@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		746412151CB7D16D00C867AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 746412141CB7D16D00C867AB /* main.m */; };
+		746412181CB7D16D00C867AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 746412171CB7D16D00C867AB /* AppDelegate.m */; };
+		7464121B1CB7D16D00C867AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7464121A1CB7D16D00C867AB /* ViewController.m */; };
+		7464121E1CB7D16D00C867AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7464121C1CB7D16D00C867AB /* Main.storyboard */; };
+		746412201CB7D16D00C867AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7464121F1CB7D16D00C867AB /* Assets.xcassets */; };
+		746412231CB7D16D00C867AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746412211CB7D16D00C867AB /* LaunchScreen.storyboard */; };
+		7464122E1CB7D16D00C867AB /* tomcatGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7464122D1CB7D16D00C867AB /* tomcatGameTests.m */; };
+		746412391CB7D16D00C867AB /* tomcatGameUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 746412381CB7D16D00C867AB /* tomcatGameUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7464122A1CB7D16D00C867AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746412081CB7D16D00C867AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7464120F1CB7D16D00C867AB;
+			remoteInfo = tomcatGame;
+		};
+		746412351CB7D16D00C867AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 746412081CB7D16D00C867AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7464120F1CB7D16D00C867AB;
+			remoteInfo = tomcatGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		746412101CB7D16D00C867AB /* tomcatGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tomcatGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746412141CB7D16D00C867AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		746412161CB7D16D00C867AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		746412171CB7D16D00C867AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		746412191CB7D16D00C867AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7464121A1CB7D16D00C867AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7464121D1CB7D16D00C867AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7464121F1CB7D16D00C867AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746412221CB7D16D00C867AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746412241CB7D16D00C867AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746412291CB7D16D00C867AB /* tomcatGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomcatGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7464122D1CB7D16D00C867AB /* tomcatGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tomcatGameTests.m; sourceTree = "<group>"; };
+		7464122F1CB7D16D00C867AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746412341CB7D16D00C867AB /* tomcatGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tomcatGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		746412381CB7D16D00C867AB /* tomcatGameUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tomcatGameUITests.m; sourceTree = "<group>"; };
+		7464123A1CB7D16D00C867AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7464120D1CB7D16D00C867AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746412261CB7D16D00C867AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746412311CB7D16D00C867AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		746412071CB7D16D00C867AB = {
+			isa = PBXGroup;
+			children = (
+				746412121CB7D16D00C867AB /* tomcatGame */,
+				7464122C1CB7D16D00C867AB /* tomcatGameTests */,
+				746412371CB7D16D00C867AB /* tomcatGameUITests */,
+				746412111CB7D16D00C867AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		746412111CB7D16D00C867AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				746412101CB7D16D00C867AB /* tomcatGame.app */,
+				746412291CB7D16D00C867AB /* tomcatGameTests.xctest */,
+				746412341CB7D16D00C867AB /* tomcatGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		746412121CB7D16D00C867AB /* tomcatGame */ = {
+			isa = PBXGroup;
+			children = (
+				746412161CB7D16D00C867AB /* AppDelegate.h */,
+				746412171CB7D16D00C867AB /* AppDelegate.m */,
+				746412191CB7D16D00C867AB /* ViewController.h */,
+				7464121A1CB7D16D00C867AB /* ViewController.m */,
+				7464121C1CB7D16D00C867AB /* Main.storyboard */,
+				7464121F1CB7D16D00C867AB /* Assets.xcassets */,
+				746412211CB7D16D00C867AB /* LaunchScreen.storyboard */,
+				746412241CB7D16D00C867AB /* Info.plist */,
+				746412131CB7D16D00C867AB /* Supporting Files */,
+			);
+			path = tomcatGame;
+			sourceTree = "<group>";
+		};
+		746412131CB7D16D00C867AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				746412141CB7D16D00C867AB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7464122C1CB7D16D00C867AB /* tomcatGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				7464122D1CB7D16D00C867AB /* tomcatGameTests.m */,
+				7464122F1CB7D16D00C867AB /* Info.plist */,
+			);
+			path = tomcatGameTests;
+			sourceTree = "<group>";
+		};
+		746412371CB7D16D00C867AB /* tomcatGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				746412381CB7D16D00C867AB /* tomcatGameUITests.m */,
+				7464123A1CB7D16D00C867AB /* Info.plist */,
+			);
+			path = tomcatGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7464120F1CB7D16D00C867AB /* tomcatGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7464123D1CB7D16D00C867AB /* Build configuration list for PBXNativeTarget "tomcatGame" */;
+			buildPhases = (
+				7464120C1CB7D16D00C867AB /* Sources */,
+				7464120D1CB7D16D00C867AB /* Frameworks */,
+				7464120E1CB7D16D00C867AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tomcatGame;
+			productName = tomcatGame;
+			productReference = 746412101CB7D16D00C867AB /* tomcatGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		746412281CB7D16D00C867AB /* tomcatGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746412401CB7D16D00C867AB /* Build configuration list for PBXNativeTarget "tomcatGameTests" */;
+			buildPhases = (
+				746412251CB7D16D00C867AB /* Sources */,
+				746412261CB7D16D00C867AB /* Frameworks */,
+				746412271CB7D16D00C867AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7464122B1CB7D16D00C867AB /* PBXTargetDependency */,
+			);
+			name = tomcatGameTests;
+			productName = tomcatGameTests;
+			productReference = 746412291CB7D16D00C867AB /* tomcatGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		746412331CB7D16D00C867AB /* tomcatGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 746412431CB7D16D00C867AB /* Build configuration list for PBXNativeTarget "tomcatGameUITests" */;
+			buildPhases = (
+				746412301CB7D16D00C867AB /* Sources */,
+				746412311CB7D16D00C867AB /* Frameworks */,
+				746412321CB7D16D00C867AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				746412361CB7D16D00C867AB /* PBXTargetDependency */,
+			);
+			name = tomcatGameUITests;
+			productName = tomcatGameUITests;
+			productReference = 746412341CB7D16D00C867AB /* tomcatGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		746412081CB7D16D00C867AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "陈一根";
+				TargetAttributes = {
+					7464120F1CB7D16D00C867AB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 29P2FLC789;
+					};
+					746412281CB7D16D00C867AB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 29P2FLC789;
+						TestTargetID = 7464120F1CB7D16D00C867AB;
+					};
+					746412331CB7D16D00C867AB = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 29P2FLC789;
+						TestTargetID = 7464120F1CB7D16D00C867AB;
+					};
+				};
+			};
+			buildConfigurationList = 7464120B1CB7D16D00C867AB /* Build configuration list for PBXProject "tomcatGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 746412071CB7D16D00C867AB;
+			productRefGroup = 746412111CB7D16D00C867AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7464120F1CB7D16D00C867AB /* tomcatGame */,
+				746412281CB7D16D00C867AB /* tomcatGameTests */,
+				746412331CB7D16D00C867AB /* tomcatGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7464120E1CB7D16D00C867AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746412231CB7D16D00C867AB /* LaunchScreen.storyboard in Resources */,
+				746412201CB7D16D00C867AB /* Assets.xcassets in Resources */,
+				7464121E1CB7D16D00C867AB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746412271CB7D16D00C867AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746412321CB7D16D00C867AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7464120C1CB7D16D00C867AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7464121B1CB7D16D00C867AB /* ViewController.m in Sources */,
+				746412181CB7D16D00C867AB /* AppDelegate.m in Sources */,
+				746412151CB7D16D00C867AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746412251CB7D16D00C867AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7464122E1CB7D16D00C867AB /* tomcatGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		746412301CB7D16D00C867AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				746412391CB7D16D00C867AB /* tomcatGameUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7464122B1CB7D16D00C867AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7464120F1CB7D16D00C867AB /* tomcatGame */;
+			targetProxy = 7464122A1CB7D16D00C867AB /* PBXContainerItemProxy */;
+		};
+		746412361CB7D16D00C867AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7464120F1CB7D16D00C867AB /* tomcatGame */;
+			targetProxy = 746412351CB7D16D00C867AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7464121C1CB7D16D00C867AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7464121D1CB7D16D00C867AB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		746412211CB7D16D00C867AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746412221CB7D16D00C867AB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7464123B1CB7D16D00C867AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7464123C1CB7D16D00C867AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7464123E1CB7D16D00C867AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tomcatGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomcatGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7464123F1CB7D16D00C867AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tomcatGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomcatGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		746412411CB7D16D00C867AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tomcatGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomcatGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomcatGame.app/tomcatGame";
+			};
+			name = Debug;
+		};
+		746412421CB7D16D00C867AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tomcatGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomcatGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tomcatGame.app/tomcatGame";
+			};
+			name = Release;
+		};
+		746412441CB7D16D00C867AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tomcatGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomcatGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tomcatGame;
+			};
+			name = Debug;
+		};
+		746412451CB7D16D00C867AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tomcatGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tomcatGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tomcatGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7464120B1CB7D16D00C867AB /* Build configuration list for PBXProject "tomcatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7464123B1CB7D16D00C867AB /* Debug */,
+				7464123C1CB7D16D00C867AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7464123D1CB7D16D00C867AB /* Build configuration list for PBXNativeTarget "tomcatGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7464123E1CB7D16D00C867AB /* Debug */,
+				7464123F1CB7D16D00C867AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		746412401CB7D16D00C867AB /* Build configuration list for PBXNativeTarget "tomcatGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746412411CB7D16D00C867AB /* Debug */,
+				746412421CB7D16D00C867AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		746412431CB7D16D00C867AB /* Build configuration list for PBXNativeTarget "tomcatGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				746412441CB7D16D00C867AB /* Debug */,
+				746412451CB7D16D00C867AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 746412081CB7D16D00C867AB /* Project object */;
+}
